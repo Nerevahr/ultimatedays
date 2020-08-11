@@ -15,11 +15,11 @@ public class AppTest extends TestCase {
 	 */
 	public AppTest(String testName) {
 		super(testName);
-		try {
-			throw new RuntimeException("erreur voulue pour les test");
-		}catch(Exception e) {
-			e.printStackTrace();
-		}
+//		try {
+//			throw new RuntimeException("erreur voulue pour les test");
+//		}catch(Exception e) {
+//			e.printStackTrace();
+//		}
 		
 	}
 
